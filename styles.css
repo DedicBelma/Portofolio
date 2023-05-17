@@ -1,0 +1,406 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.all {
+    /*background-color: rgba(238, 235, 235, 0.699);*/
+    background-color: rgba(0, 0, 0, 0.849);
+    min-height: 100vh;
+}
+
+.firstPart {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    height: 85vh;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+}
+
+.image img {
+    width: 60%;
+    height: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+}
+
+.aboutMe {
+    font-family: 'Noto Sans', sans-serif;
+    cursor: default;
+}
+
+.aboutMe h1{
+    font-size: 55px;    
+}
+
+.aboutMe p {
+    font-size: 20px;
+}
+
+.more a {
+    text-decoration: none;
+    font-weight: 550;
+    color: white;
+}
+
+.more a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.animate-charcter
+{
+   text-transform: uppercase;
+  background-image: linear-gradient(
+    -225deg,
+    #231557 0%,
+    #44107a 29%,
+    #ff1361 67%,
+    #fff800 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+.text {
+    font-family: "Montserrat Medium";
+    max-width: 40ch;
+    transform: scale(0.94);
+    animation: scale 3s forwards cubic-bezier(0.5, 1, 0.89, 1);
+  }
+  @keyframes scale {
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+span {
+    display: inline-block;
+    opacity: 0;
+    filter: blur(1px);
+}
+  
+span:nth-child(1) {
+    animation: fade-in 1.2s 0.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+  
+span:nth-child(2) {
+    animation: fade-in 1.2s 0.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+  
+span:nth-child(3) {
+    animation: fade-in 1.2s 0.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+  
+span:nth-child(4) {
+    animation: fade-in 1.2s 0.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+  
+span:nth-child(5) {
+    animation: fade-in 1.2s 1.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+  
+span:nth-child(6) {
+    animation: fade-in 1.2s 1.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+  
+span:nth-child(7) {
+    animation: fade-in 1.2s 1.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+  
+span:nth-child(8) {
+    animation: fade-in 1.2s 1.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+  
+span:nth-child(9) {
+    animation: fade-in 1.2s 1.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+  
+span:nth-child(10) {
+    animation: fade-in 1.2s 2.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+  
+span:nth-child(11) {
+    animation: fade-in 1.2s 2.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+  
+span:nth-child(12) {
+    animation: fade-in 1.2s 2.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+  
+span:nth-child(13) {
+    animation: fade-in 1.2s 2.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+  
+span:nth-child(14) {
+    animation: fade-in 1.2s 2.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+  
+span:nth-child(15) {
+    animation: fade-in 1.2s 3.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+  
+span:nth-child(16) {
+    animation: fade-in 1.2s 3.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+  
+span:nth-child(17) {
+    animation: fade-in 1.2s 3.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+  
+span:nth-child(18) {
+    animation: fade-in 1.2s 3.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(19) {
+    animation: fade-in 1.2s 3.9s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(20) {
+    animation: fade-in 1.2s 4.1s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(21) {
+    animation: fade-in 1.2s 4.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+
+span:nth-child(22) {
+    animation: fade-in 1.2s 4.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+  
+@keyframes fade-in {
+    100% {
+      opacity: 1;
+      filter: blur(0);
+    }
+}
+
+.technologies {
+    min-height: 100vh;
+}
+
+.technologies p, .projects p {
+    margin-top: 2%;
+    font-family: 'Indie Flower', cursive;
+    font-size: 250%;
+    margin-bottom: 2%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.technologies img {
+    width: 25%;
+    margin-bottom: 10%;
+}
+
+.technologies .logoImages .bootstrap, .technologies .logoImages .mysql, .technologies .logoImages .c, 
+.technologies .logoImages .docker {
+    width: 55%;
+}
+
+.technologies .logoImages .node, .technologies .logoImages .react, .technologies .logoImages .java, 
+.technologies .logoImages .postgresql {
+    width: 35%;
+}
+
+.technologies .logoImages .mongo {
+    width: 40%;
+}
+
+.logoImages {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.hover div img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.hover div:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.technologies .more a {
+    text-decoration: none;
+    font-weight: 550;
+    color: black;
+    font-size: 18px;
+}
+
+.technologies .more a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.projects {
+    background-color: rgba(243, 238, 238, 0.575);
+    height: 100vh;
+}
+
+.project .item {
+    height: 400px;
+}
+  
+.item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      max-height: 400px;
+}
+
+/* Main Footer */
+footer .main-footer {  
+    margin-top: 1.9%;
+    padding: 10px 0;  
+    background: #252525;}
+
+/* Footer transparent */
+.main-footer {  
+    background: transparent;
+}
+
+/* Footer light */
+.main-footer { 
+    background: #f9f9f9;
+}
+
+/*==================== 
+  Widgets 
+====================== */
+.widget {  
+    padding: 20px;  
+    margin-bottom: 40px;}
+    
+.widget.widget-last {  
+    margin-bottom: 0px;
+}
+
+.widget.no-box { 
+    padding: 0; 
+    background-color: transparent;  
+    margin-bottom: -10px;
+    box-shadow: none; -webkit-box-shadow: none; -moz-box-shadow: none; -ms-box-shadow: none; -o-box-shadow: none;
+}
+
+.widget.no-box svg:hover {
+    color: purple;
+}
+
+.widget-title {
+    margin-bottom: 20px;
+    cursor: default;
+}
+
+.widget-title a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.widget-title a:hover {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.widget-title span {
+    background: #839FAD none repeat scroll 0 0;
+    display: block; 
+    height: 1px; 
+    margin-top: 15px;
+    position: relative;
+    width: 20%;
+}
+
+.widget-title span::after {
+    background: inherit;
+    content: "";
+    height: inherit;    
+    position: absolute;
+    top: -4px;
+    width: 50%;
+}
+
+.widget-title.text-center span,.widget-title.text-center span::after {
+    margin-left: auto;
+    margin-right:auto;
+    left: 0;
+    right: 0;
+}
+
+.widget .badge { 
+    float: right; 
+    background: #7f7f7f;
+}
+
+.typo-light h5, .typo-light div, .typo-light span, .typo-light small {  
+    color: #fff;
+}
+
+@media only screen and (max-width: 575px){
+    .firstPart {
+        padding-top: 5%;
+        height: 100%;
+    }
+
+   .aboutMe {
+        margin-top: 2%;
+        margin-left: 3%;
+   }
+
+   .more a svg {
+    margin-bottom: 15px;
+   } 
+
+   .technologies p {
+    font-size: 30px;
+    }
+
+    .logoImages {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .technologies img {
+        width: 20%;
+        margin-bottom: 8%;
+    }
+
+    .technologies .logoImages .bootstrap, .technologies .logoImages .mysql, .technologies .logoImages .c, 
+    .technologies .logoImages .docker {
+        width: 45%;
+    }
+
+    .technologies .logoImages .node, .technologies .logoImages .react, .technologies .logoImages .java, 
+    .technologies .logoImages .postgresql {
+        width: 30%;
+    }
+
+    .technologies .logoImages .mongo {
+        width: 40%;
+    }
+
+}
