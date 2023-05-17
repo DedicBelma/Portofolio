@@ -403,4 +403,8 @@ footer .main-footer {
         width: 40%;
     }
 
+    .project .item {
+        max-height: 215px;
+    }
+
 }
