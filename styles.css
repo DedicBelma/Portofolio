@@ -7,6 +7,7 @@
     /*background-color: rgba(238, 235, 235, 0.699);*/
     background-color: rgba(0, 0, 0, 0.849);
     min-height: 100vh;
+    width: 100%;
 }
 
 .firstPart {
@@ -310,8 +311,10 @@ footer .main-footer {
 }
 
 .widget-title {
+    width: max-content;
     margin-bottom: 20px;
     cursor: default;
+    padding-right: 0px;
 }
 
 .widget-title a {
@@ -368,7 +371,7 @@ footer .main-footer {
 
    .aboutMe {
         margin-top: 2%;
-        margin-left: 3%;
+        padding-left: 3%;
    }
 
    .more a svg {
@@ -386,7 +389,7 @@ footer .main-footer {
 
     .technologies img {
         width: 20%;
-        margin-bottom: 8%;
+        margin-bottom: 3%;
     }
 
     .technologies .logoImages .bootstrap, .technologies .logoImages .mysql, .technologies .logoImages .c, 
@@ -403,8 +406,57 @@ footer .main-footer {
         width: 40%;
     }
 
-    .project .item {
+    .project .item img {
         max-height: 215px;
+        min-height: 215px;
     }
 
+    .project .item {
+        max-height: 215px;
+        min-height: 215px;
+    }
+
+    .projects {
+        height: auto;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .technologies p {
+        margin-bottom: 0%;
+    }
+
+    .technologies img {
+        margin-bottom: 1%;
+    }
+
+    .project .item img {
+        max-height: 215px;
+        min-height: 215px;
+    }
+
+    .project .item {
+        max-height: 215px;
+        min-height: 215px;
+    }    
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+    .technologies p {
+        margin-bottom: 2%;
+    }
+
+    .technologies img {
+        margin-bottom: 1%;
+    }
+
+    .project .item img {
+        max-height: 385px;
+        min-height: 385px;
+    }
+
+    .project .item {
+        max-height: 385px;
+        min-height: 385px;
+    }    
 }
