@@ -260,7 +260,7 @@ span:nth-child(22) {
 
 .projects {
     background-color: rgba(243, 238, 238, 0.575);
-    height: 100vh;
+    height: auto;
 }
 
 .project .item {
