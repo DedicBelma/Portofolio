@@ -278,7 +278,10 @@ span:nth-child(22) {
 footer .main-footer {  
     margin-top: 1.9%;
     padding: 10px 0;  
-    background: #252525;}
+    background: #252525;
+    position: relative;
+    bottom: 0;
+}
 
 /* Footer transparent */
 .main-footer {  
@@ -427,10 +430,6 @@ footer .main-footer {
     .project .item {
         max-height: 215px;
         min-height: 215px;
-    }
-
-    .projects {
-        height: 100vh;
     }
 }
 
